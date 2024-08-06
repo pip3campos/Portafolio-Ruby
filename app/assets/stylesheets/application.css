@@ -13,3 +13,12 @@
  *= require_tree .
  *= require_self
  */
+#muro {
+    height: 20vh;
+    object-fit: cover;
+    object-position: top;
+}
+
+.nav-item {
+    margin-right: 1rem;
+}

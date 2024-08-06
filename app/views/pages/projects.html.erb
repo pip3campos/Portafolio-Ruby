@@ -1,2 +1,35 @@
-<h1>Pages#projects</h1>
-<p>Find me in app/views/pages/projects.html.erb</p>
+<div class="container text-center">
+    <h1>Mis proyectos</h1>
+  <div class="row">
+    <div class="col">
+        <div class="card" style="width: 18rem;">
+            <%= image_tag 'carousel1.jpg' %>
+            <div class="card-body">
+                <h5 class="card-title">Viajes Chile</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="https://pip3campos.github.io/Viajes-Chile/" class="btn btn-primary">Visitar Proyecto</a>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card" style="width: 18rem;">
+            <%= image_tag 'muro.jpg', id: 'muro' %>
+            <div class="card-body">
+                <h5 class="card-title">Coloso Boulder</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="https://colosoboulderfront.onrender.com/" class="btn btn-primary">Visitar Proyecto</a>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card" style="width: 18rem;">
+            <%= image_tag 'music_concert.jpg' %>
+            <div class="card-body">
+                <h5 class="card-title">Amazing Events</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="https://pip3campos.github.io/AmazingEventsFelipeCampos/" class="btn btn-primary">Visitar Proyecto</a>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
